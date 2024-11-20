@@ -1,13 +1,15 @@
 [
     {
       "id": 1,
-      "name": "Organic Green Tea",
-      "price": 12.99,
-      "image": "https://picsum.photos/id/225/300/200",
-      "description": "Premium organic green tea leaves, rich in antioxidants and offering a smooth, refreshing taste."
+      "product_id": 1,
+      "name": "Acoustic Guitar",
+      "price": 179.99,
+      "image": "https://picsum.photos/id/145/300/200",
+      "description": "Premium Acoustic Guitar, rich bright tone, with a hint of rustic sound."
     },
     {
       "id": 2,
+      "product_id": 2,
       "name": "Stainless Steel Water Bottle",
       "price": 24.99,
       "image": "https://picsum.photos/id/28/300/200",
@@ -15,6 +17,7 @@
     },
     {
       "id": 3,
+      "product_id": 3,
       "name": "Bamboo Cutting Board",
       "price": 19.99,
       "image": "https://picsum.photos/id/292/300/200",
@@ -22,6 +25,7 @@
     },
     {
       "id": 4,
+      "product_id": 4,
       "name": "Reusable Produce Bags",
       "price": 15.99,
       "image": "https://picsum.photos/id/292/300/200",
@@ -29,6 +33,7 @@
     },
     {
       "id": 5,
+      "product_id": 5,
       "name": "Solar-Powered Charger",
       "price": 39.99,
       "image": "https://picsum.photos/id/180/300/200",

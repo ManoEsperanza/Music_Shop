@@ -18,11 +18,11 @@ const initialCart = Immutable([
   {
       "id": 1,
       "product_id": 1,
-      "quantity": 10,
-      "productName": "Organic Green Tea",
-      "price": 12.99,
-      "imageUrl": "https://picsum.photos/id/225/300/200",
-      "description": "Premium organic green tea leaves, rich in antioxidants and offering a smooth, refreshing taste."
+      "quantity": 1,
+      "productName": "Acoustic Guitar",
+      "price": 179.99,
+      "imageUrl": "https://picsum.photos/id/145/300/200",
+      "description": "Premium Acoustic Guitar, rich bright tone, with a hint of rustic sound."
   }
   
 ])
@@ -63,18 +63,23 @@ export const useCart = () => {
           return currentCart.filter(item => item.product_id !== product_id);
         } else {                      
             return currentCart.setIn([existingItemIndex, 'quantity'], quantity);
-        }
-
-        
+        } 
         
       }
     });
   }
+
+  const removeFromCart = (product_id) => {
+    setCart((currentCart) => {
+      return currentCart.filter(item => item.product_id !== product_id);
+    });
+  }
+
   return {
     cart,
     getCartTotal,
     addToCart,
     modifyQuantity,
- 
+    removeFromCart
   };
 };

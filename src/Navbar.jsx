@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <Link href="/" className="navbar-brand">E-Shop</Link>
+        <Link href="/" className="navbar-brand">Mano's Music Shop</Link>
         <button
           className="navbar-toggler"
           type="button"

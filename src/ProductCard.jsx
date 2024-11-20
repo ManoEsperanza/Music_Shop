@@ -11,7 +11,7 @@ const ProductCard = (props) => {
 
   const handleAddToCart = () => {    
     addToCart(props);
-    showMessage('Item added to cart', 'success');
+    showMessage(`Item added to cart `, 'success');
     setLocation('/cart');
   }
 
