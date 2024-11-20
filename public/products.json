@@ -3,40 +3,40 @@
       "id": 1,
       "product_id": 1,
       "name": "Acoustic Guitar",
-      "price": 179.99,
+      "price": 579.99,
       "image": "https://picsum.photos/id/145/300/200",
       "description": "Premium Acoustic Guitar, rich bright tone, with a hint of rustic sound."
     },
     {
       "id": 2,
       "product_id": 2,
-      "name": "Stainless Steel Water Bottle",
-      "price": 24.99,
-      "image": "https://picsum.photos/id/28/300/200",
-      "description": "Eco-friendly, double-walled insulated water bottle. Keeps drinks cold for 24 hours or hot for 12 hours."
+      "name": "Speakers with Sub Woofer",
+      "price": 389.99,
+      "image": "https://picsum.photos/id/529/300/200",
+      "description": "Speakers with Sub Woofer for monitoring.Portable with 8 Hours Battery life"
     },
     {
       "id": 3,
       "product_id": 3,
-      "name": "Bamboo Cutting Board",
-      "price": 19.99,
-      "image": "https://picsum.photos/id/292/300/200",
-      "description": "Durable and sustainable bamboo cutting board with juice groove. Perfect for meal prep and serving."
+      "name": "Premium Yamaha Grand Piano",
+      "price": 2319.99,
+      "image": "https://picsum.photos/id/1082/300/200",
+      "description": "Premium from Japan Brand Concert Piano, Grading Level and for concerts."
     },
     {
       "id": 4,
       "product_id": 4,
-      "name": "Reusable Produce Bags",
-      "price": 15.99,
-      "image": "https://picsum.photos/id/292/300/200",
-      "description": "Set of 5 mesh produce bags. Washable and perfect for grocery shopping and storing fruits and vegetables."
+      "name": "Premium Gibson Electric Guitar",
+      "price": 1995.99,
+      "image": "https://picsum.photos/id/836/300/200",
+      "description": "Premium Electric guitar from Gibson,Traditionally Great sounding with great gear."
     },
     {
       "id": 5,
       "product_id": 5,
-      "name": "Solar-Powered Charger",
-      "price": 39.99,
-      "image": "https://picsum.photos/id/180/300/200",
-      "description": "Portable solar charger with dual USB ports. Ideal for outdoor activities and emergency preparedness."
+      "name": "Premium Sony Camera",
+      "price": 839.99,
+      "image": "https://picsum.photos/id/250/300/200",
+      "description": "For taking pictures and videos of Music Videos and concerts."
     }
   ]

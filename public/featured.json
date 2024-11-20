@@ -1,26 +1,26 @@
 [
     {
       "id": 1,
-      "name": "Sleek Smartwatch",
-      "price": 199.99,
-      "image": "https://picsum.photos/id/20/300/200"
-    },
-    {
-      "id": 2,
-      "name": "Wireless Earbuds",
-      "price": 79.99,
-      "image": "https://picsum.photos/id/1/300/200"
-    },
-    {
-      "id": 3,
-      "name": "Portable Power Bank",
-      "price": 49.99,
+      "name": "Concert Personal Gear",
+      "price": 699.99,
       "image": "https://picsum.photos/id/26/300/200"
     },
     {
+      "id": 2,
+      "name": "Madison Square Garden Poster Showcase",
+      "price": 979.99,
+      "image": "https://picsum.photos/id/274/300/200"
+    },
+    {
+      "id": 3,
+      "name": "Sessionist for Concert",
+      "price": 569.99,
+      "image": "https://picsum.photos/id/453/300/200"
+    },
+    {
       "id": 4,
-      "name": "HD Action Camera",
-      "price": 129.99,
-      "image": "https://picsum.photos/id/96/300/200"
+      "name": "Stage Lights",
+      "price": 729.99,
+      "image": "https://picsum.photos/id/452/300/200"
     }
   ]
