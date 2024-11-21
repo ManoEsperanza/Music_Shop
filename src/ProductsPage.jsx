@@ -5,19 +5,33 @@ import ProductCard from './ProductCard';
 function ProductsPage() {
   const [products, setProducts] = useState([]);
 
+  // useEffect(() => {
+  //   const fetchProducts = async () => {
+  //     try {
+  //       const response = await axios.get('/products.json');
+  //       setProducts(response.data);
+  //     } catch (error) {
+  //       console.error('Error fetching products:', error);
+  //     }
+  //   };
+
+  //   fetchProducts();
+  // }, []);
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('/products.json');
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/products`);
         setProducts(response.data);
       } catch (error) {
         console.error('Error fetching products:', error);
       }
     };
-
+  
     fetchProducts();
   }, []);
 
+  
   return (
     <div className="container my-5">
       <h1 className="text-center mb-4">Our Premium Products</h1>

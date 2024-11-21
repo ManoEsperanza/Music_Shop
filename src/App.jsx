@@ -9,7 +9,7 @@ import ProductsPage from './ProductsPage';
 import RegisterPage from './RegisterPage';
 import { useFlashMessage } from './FlashMessageStore';
 import ShoppingCart from './ShoppingCart';
-
+import UserLogin from "./UserLogin"
 
 function App() {
   const { getMessage, clearMessage  } = useFlashMessage();
@@ -41,7 +41,7 @@ function App() {
         <Route path="/products" component={ProductsPage} />
         <Route path="/register" component={RegisterPage} />
         <Route path="/cart" component={ShoppingCart} />
-
+        <Route path="/login" component={UserLogin} />
       </Switch>
 
       <Footer/>
