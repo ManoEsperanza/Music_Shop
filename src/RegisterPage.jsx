@@ -47,7 +47,6 @@ function RegisterPage() {
   // };
 
   const [, setLocation] = useLocation();
-  const [showSuccess, setShowSuccess] = useState(false);
   const { showMessage } = useFlashMessage();
   
   // const handleSubmit = async (values, formikHelpers) => {
@@ -65,6 +64,8 @@ function RegisterPage() {
   // };
 
   const handleSubmit = async (values, formikHelpers) => {
+    console.log("1", `${import.meta.env.VITE_API_URL}/api/users/register`);
+
     try {
       const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/users/register`, values);
       // const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/register`, values);
@@ -75,7 +76,7 @@ function RegisterPage() {
       showMessage('Registration failed. Please try again.', 'error');
     } finally {
       formikHelpers.setSubmitting(false);
-      setLocation('/');
+      // setLocation('/');
     }
   };
 
@@ -210,6 +211,7 @@ function RegisterPage() {
                 <option value="in">Indonesia</option>
                 <option value="th">Thailand</option>
               </Field>
+              {formik.errors.country && formik.touched.country && <div className= "text-danger">{formik.errors.country}</div>}
             </div>
            
             <button

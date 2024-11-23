@@ -31,7 +31,7 @@ function ProductsPage() {
     fetchProducts();
   }, []);
 
-  
+  // console.log("1", products);
   return (
     <div className="container my-5">
       <h1 className="text-center mb-4">Our Premium Products</h1>
