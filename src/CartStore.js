@@ -50,9 +50,11 @@ export const useCart = () => {
       if (existingItemIndex !== -1) {
         // Use setIn to update quantity immutably
         const currentQuantity = currentCart[existingItemIndex].quantity;
+        console.log("aaa", currentCart.setIn([existingItemIndex, 'quantity'], currentQuantity + 1))
         return currentCart.setIn([existingItemIndex, 'quantity'], currentQuantity + 1);
       } else {
         // Use concat to add a new item immutably
+        console.log("vfd", currentCart.concat({ ...product, product_id: product.id, quantity: 1 }));
         return currentCart.concat({ ...product, product_id: product.id, quantity: 1 });
       }
     });

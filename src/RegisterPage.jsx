@@ -112,6 +112,7 @@ function RegisterPage() {
                 name="email"
               />
             </div>
+            {formik.errors.email && formik.touched.email ? <div className="text-danger">{formik.errors.email}</div> : null}
 
             <div className="mb-3">
               <label htmlFor="password" className="form-label">Password</label>
@@ -122,7 +123,7 @@ function RegisterPage() {
                 name="password"
               />
             </div>
-
+            {formik.errors.password && formik.touched.password ? <div className="text-danger">{formik.errors.password}</div> : null}
             <div className="mb-3">
               <label htmlFor="confirmPassword" className="form-label">Confirm Password</label>
               <Field
@@ -132,7 +133,7 @@ function RegisterPage() {
                 name="confirmPassword"
               />
             </div>
-
+  
             <div className="mb-3">
               <label className="form-label">Salutation</label>
               <div>
@@ -185,6 +186,8 @@ function RegisterPage() {
               </div>
               <div className="form-check">
                 <Field
+                
+                
                   className="form-check-input"
                   type="checkbox"
                   id="smsMarketing"

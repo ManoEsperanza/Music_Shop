@@ -1,39 +1,39 @@
 [
     {
-      "id": 1,
-      "product_id": 1,
+      "id": 5,
+      "product_id": 5,
       "name": "Acoustic Guitar",
       "price": 579.99,
       "image": "https://picsum.photos/id/145/300/200",
       "description": "Premium Acoustic Guitar, rich bright tone, with a hint of rustic sound."
     },
     {
-      "id": 2,
-      "product_id": 2,
+      "id": 6,
+      "product_id": 6,
       "name": "Speakers with Sub Woofer",
       "price": 389.99,
       "image": "https://picsum.photos/id/529/300/200",
       "description": "Speakers with Sub Woofer for monitoring.Portable with 8 Hours Battery life"
     },
     {
-      "id": 3,
-      "product_id": 3,
+      "id": 7,
+      "product_id": 7,
       "name": "Premium Yamaha Grand Piano",
       "price": 2319.99,
       "image": "https://picsum.photos/id/1082/300/200",
       "description": "Premium from Japan Brand Concert Piano, Grading Level and for concerts."
     },
     {
-      "id": 4,
-      "product_id": 4,
+      "id": 8,
+      "product_id": 8,
       "name": "Premium Gibson Electric Guitar",
       "price": 1995.99,
       "image": "https://picsum.photos/id/836/300/200",
       "description": "Premium Electric guitar from Gibson,Traditionally Great sounding with great gear."
     },
     {
-      "id": 5,
-      "product_id": 5,
+      "id": 9,
+      "product_id": 9,
       "name": "Premium Sony Camera",
       "price": 839.99,
       "image": "https://picsum.photos/id/250/300/200",
